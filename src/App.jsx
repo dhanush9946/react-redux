@@ -1,10 +1,12 @@
 import React from 'react'
-import Users from './middleware/Users'
+import Counter from './toolkit/Counter'
+import Todo from './todo/Todo'
+import Posts from './fetching/Posts'
 
 function App() {
   return (
     <div>
-      <Users />
+      <Posts />
     </div>
   )
 }
